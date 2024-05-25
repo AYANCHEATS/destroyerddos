@@ -269,7 +269,7 @@ def show_command_logs(message):
         except FileNotFoundError:
             response = "No command logs found."
     else:
-        response = "You Are Not Authorized To Use This Command 😡."
+        response = "You Are Not Authorized To Use This Command "
 
     bot.reply_to(message, response)
 
@@ -285,8 +285,11 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @IPXKINGYT
-Official Channel :- https://t.me/+6pLYLxgt8QI5ZmFl
+WELLCOME TO AYAN CHEATS DDOS
+
+DM TO BUY KEY:- @AYAN_CHEATS_OWNER
+
+🤖TRY TO RUN THIS COMMAND : /help
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -301,9 +304,11 @@ Official Channel :- https://t.me/+6pLYLxgt8QI5ZmFl
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.
+    response = f'''👋🏻WELLCOME TO AYAN CHEATS DDOS
+
+DM TO BUY KEY:- @AYAN_CHEATS_OWNER, {user_name}! Feel Free to Explore.
 🤖Try To Run This Command : /help 
-✅Join :- https://t.me/+6pLYLxgt8QI5ZmFl'''
+✅Join :- https://t.me/+knLIUHzbDnY4NTA1'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -330,6 +335,7 @@ Pr-ice List💸 :
 Day-->300 Rs
 Week-->1000 Rs
 Month-->2000 Rs
+buy from @AYAN_CHEATS_OWNER
 '''
     bot.reply_to(message, response)
 
